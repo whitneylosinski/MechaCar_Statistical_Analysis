@@ -14,7 +14,7 @@ Summary: The results of the linear regression to predict mpg show that the
 
 |Total Summary|Lot Summary|
 |:---:|:---:|
-|![Total Summary](Results/Total_Summary.png)|![Lot Summary](Results/Lot_Summary.png|
+|![Total Summary](Results/Total_Summary.png)|![Lot Summary](Results/Lot_Summary.png)|
 
 Summary: The results of the summary statistics on suspension coils show that
 
@@ -22,9 +22,10 @@ Summary: The results of the summary statistics on suspension coils show that
 
 ## T-Tests on Suspension Coils
 
-|![t-Test All Lots](Results/t-Test_All_Lots.png)|![t-Test Lot 1](Results/t-Test_Lot1.png)|
-|:---:|:---:|
-|![t-Test Lot 2](Results/t-Test_Lot2.png)|![t-Test Lot 3](Results/t-Test_Lot3.png)|
+![t-Test All Lots](Results/t-Test_All_Lots.png)
+![t-Test Lot 1](Results/t-Test_Lot1.png)
+![t-Test Lot 2](Results/t-Test_Lot2.png)
+![t-Test Lot 3](Results/t-Test_Lot3.png)
 
 Summary: The results of the t-Tests on suspension coils showed
 
