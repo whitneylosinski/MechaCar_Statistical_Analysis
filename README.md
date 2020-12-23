@@ -1,5 +1,4 @@
 # MechaCar Statistical Analysis
-
 The purpose of this project was to demonstrate different analytical techniques using R and statistical analysis to provide insights into what could be causing production and perfomrance issues for the MechaCar.  Specifically, the following statistics were evaluated:
 1. Linear Regression to predict MPG
 2. Summary Statistics on Suspension Coils
@@ -8,22 +7,15 @@ The purpose of this project was to demonstrate different analytical techniques u
 5. t-Test on the PSI of Suspension Coils per Manufacturing Lot
 
 ## Linear Regression to Predict MPG
-Summary: The results of the linear regression to predict mpg show that the 
-
-**- Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?**
-
-**- Is the slope of the linear model considered to be zero? Why or why not?**
-The slope of the linear model is not equal to zero.  The null hypothesis for the linear regression model is that the 
-
-**- Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
-
+The results of the linear regression model to predict MPG were as follows.
+- Ground clearance, vehicle length and the intercept all had Pr(<|t|) values smaller than the assumed 0.05% significance level, meaning that they provided non-random amounts of variance to the mpg values in the dataset. This means that ground clearance and vehicle length have a significant impact on mpg and the statistically significant y-intercept indicates that there are other significant variables and factors that were not included in the model.
+- The null hypothesis for the linear regression model is that the slope will be equal to zero.  The p-value tells the likelihood that, if the null hypothesis is true, similar results would be seen if we tested our data again.  Because the p-value for the linear regression analysis was 5.35 x 10-11, which is much smaller than the assumed 0.05% significance level, there is insufficient evidence to reject the null hypothesis.  This means that the slope of the linear model is not equal to zero.
+- The r-squared value (coefficient of determination) represents how well the regression model approximates real-world data points.  In this analysis, the r-squared value is 0.7149 which means about 71% of the MPG data will be correct using the linear model. Based on this analysis, it can be inferred that the linear model is effective in predicting mpg of MechaCar prototypes.
 
 ![Linear Regression Screenshot](Results/Linear_Regression_Result.png)
 
-
-
 ## Summary Statistics on Suspension Coils
-Summary: The results of the summary statistics on suspension coils show that
+The results of the summary statistics on suspension coils show that
 
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
