@@ -22,11 +22,15 @@ The design specifications for the MechaCar suspension coils dictate that the var
 |![Total Summary](Results/Total_Summary.png)|![Lot Summary](Results/Lot_Summary.png)|
 
 ## T-Tests on Suspension Coils
-Below are the results of one-sample t-Tests conducted to determine if there is a statistically significant difference between the means of different sample datasets and the population dataset.  The first result compared the mean of a sample of 50 data points from the overall dataset to the population mean.  The next three results compared the means of the dataset for each lot to the population mean.  The null hypothesis for the t-Tests was that there would be no statistical difference between the means, while the alternative hypothesis assumed there would be a statistical difference between the means.  Looking at the results, it is seen that all of the p-values, except for Lot 3, are much smaller than the assumed significance level of 0.05, meaning there is sufficient evidence to reject the null hypothesis.  This implies that all of the sample datasets means are statistically different from the population dataset mean.  For lot 3, the p-value was 0.1589 which is larger than the 0.05 significance level, meaning there is not sufficient evidence to reject the null hypothesis and the lot 3 mean is statistically the same as the population mean.
+Below are the results of one-sample t-Tests conducted to determine if there is a statistically significant difference between the means of different sample datasets and the population dataset.  The first result compared the mean of a sample of 50 data points from the overall dataset to the population mean.  The next three results compared the means of the dataset for each lot to the population mean.  The null hypothesis for the t-Tests was that there would be no statistical difference between the means, while the alternative hypothesis assumed there would be a statistical difference between the means.  Looking at the results, it is seen that the p-values for Lot 1 and Lot 2 are much smaller than the assumed significance level of 0.05, meaning there is sufficient evidence to reject the null hypothesis.  This implies that those sample dataset means are statistically different from the population dataset mean.  For the sample data of all lots and Lot 3, the p-value was larger than the 0.05 significance level, meaning there is not sufficient evidence to reject the null hypothesis and the mean is statistically the same as the population mean.
 
+Sample data of all lots
 ![t-Test All Lots](Results/t-Test_All_Lots.png)
+Lot 1
 ![t-Test Lot 1](Results/t-Test_Lot1.png)
+Lot2
 ![t-Test Lot 2](Results/t-Test_Lot2.png)
+Lot 3
 ![t-Test Lot 3](Results/t-Test_Lot3.png)
 
 ## Study Design: MechaCar vs Competition
