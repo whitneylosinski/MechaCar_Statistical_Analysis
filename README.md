@@ -21,12 +21,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 |:---:|:---:|
 |![Total Summary](Results/Total_Summary.png)|![Lot Summary](Results/Lot_Summary.png)|
 
-
-
 ## T-Tests on Suspension Coils
-Summary: The results of the t-Tests on suspension coils showed
-
-- briefly summarize your interpretation and findings for the t-test results.
+Below are the results of one-sample t-Tests conducted to determine if there is a statistically significant difference between the means of different sample datasets and the population dataset.  The first result compared the mean of a sample of 50 data points from the overall dataset to the population mean.  The next three results compared the means of the dataset for each lot to the population mean.  The null hypothesis for the t-Tests was that there would be no statistical difference between the means, while the alternative hypothesis assumed there would be a statistical difference between the means.  Looking at the results, it is seen that all of the p-values are much smaller than the assumed significance level of 0.05, meaning there is not enough evidenct to reject the null hypothesis.  This implies that all of the sample datasets are statistically similar to the population dataset.
 
 ![t-Test All Lots](Results/t-Test_All_Lots.png)
 ![t-Test Lot 1](Results/t-Test_Lot1.png)
