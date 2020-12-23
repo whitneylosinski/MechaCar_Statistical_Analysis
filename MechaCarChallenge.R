@@ -23,17 +23,5 @@ t.test(sample_table$PSI,mu=mean(Suspension_Coil$PSI)) #compare sample versus pop
 # Perform a t-Test of PSI for each lot
 t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot1")) #compare sample versus population means for Lot 1
 t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot2")) #compare sample versus population means for Lot 2
-t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot3")) #compare sample versus population means for Lot 3  
-
-
-
-
-# Different way to Perfom a t-Test of PSI for each lot
-Lot1 <- Suspension_Coil %>% filter(Manufacturing_Lot=="Lot1") #select only data points where the Manufacturing Lot is Lot1
-Lot2 <- Suspension_Coil %>% filter(Manufacturing_Lot=="Lot2") #select only data points where the Manufacturing Lot is Lot2
-Lot3 <- Suspension_Coil %>% filter(Manufacturing_Lot=="Lot3") #select only data points where the Manufacturing Lot is Lot3
-
-t.test(Lot1$PSI,sample_table$PSI,paired = T) #compare the mean difference between two samples
-t.test(Lot2$PSI,Suspension_Coil$PSI,paired = T) #compare the mean difference between two samples
-t.test(Lot3$PSI,Suspension_Coil$PSI,paired = T) #compare the mean difference between two samples
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot3")) #compare sample versus population means for Lot 3
 
