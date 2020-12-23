@@ -30,16 +30,16 @@ Below are the results of one-sample t-Tests conducted to determine if there is a
 ![t-Test Lot 3](Results/t-Test_Lot3.png)
 
 ## Study Design: MechaCar vs Competition
-To improve the MechaCar safety performance and compare it to the safety performance of competitors, an addition study can be performed looking at the braking performance of the MechaCar in different weather conditions.  Performing a statistical study will prepare the team to be better informed when making decisions regarding the MechaCar safety design. 
+To compare the MechaCar fuel efficiency compared to competitor models, an addition study can be performed looking at the fuel efficiency of the MechaCar compared to similar models from different manufacturers.  Performing a statistical study will prepare the team to be better informed when making decisions regarding the MechaCar design and performance. 
 
 **1. Metrics to be tested**
-This study will be comparing the braking performance of the MechaCar in different weather conditions.  The metric being analyzed will be braking distance, measured in feet.
+This study will be comparing the highway fuel efficiency performance of the MechaCar compared to similar competitor models.  The metric being analyzed will be miles per gallon, or mpg, and manufacturer name.
 
 **2. Null and alternative hypotheses**
-The null hypothesis in this study is that the mean braking distance will be statistically consistent across each of the weather conditions.  The alternative hypothesis is that the braking distance will be statistically inconsistent for at least one of the weather conditions.
+The null hypothesis in this study is that the fuel efficiency will be statistically consistent across each of the manufacturers.  The alternative hypothesis is that the fuel efficiency will be statistically inconsistent for at least one of the manufacturers.
 
 **3. Statistical tests to be used to test the hypothesis**
-To test the null hypothesis, a one-way ANOVA test will be used.  The ANOVA test is useful in this analysis since it can be used to test the means of the continuous numerical variable of braking distance across different weather condition groups.  The ANOVA test is preferred over a t-Test in this case for simplicity reasons. 
+To test the null hypothesis, a one-way ANOVA test will be used.  The ANOVA test is useful in this analysis since it can be used to test the means of the continuous numerical variable of highway fuel efficency (mpg) across different manufacturer groups.  The ANOVA test is preferred over a t-Test in this case for simplicity reasons. 
 
 **4. Necessary data to run the statistical test**
-The data needed for this analysis would be the braking distances of the MechaCar in different weather conditions such as sunny (dry), rainy, snowy and icy weather.  At least 50 data points for each weather condition would be needed to get an accurate representation of the performance but a greater number of data points would improve the accuracy of the analysis.
+The data needed for this analysis would be the highway fuel efficiencies, measured in mpg, of the MechaCar and other competitor models along with the name of the manufacturer for each model.  At least 50 fuel efficiency data points for each manufacturer would be needed to get an accurate representation of performance but a greater number of data points would improve the accuracy of the analysis.
