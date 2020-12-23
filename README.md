@@ -29,12 +29,17 @@ Below are the results of one-sample t-Tests conducted to determine if there is a
 ![t-Test Lot 2](Results/t-Test_Lot2.png)
 ![t-Test Lot 3](Results/t-Test_Lot3.png)
 
-
 ## Study Design: MechaCar vs Competition
+To improve the MechaCar safety performance and compare it to the safety performance of competitors, an addition study can be performed looking at the braking performance of the MechaCar in different weather conditions.  Performing a statistical study will prepare the team to be better informed when making decisions regarding the MechaCar safety design. 
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
+**1. Metrics to be tested**
+This study will be comparing the braking performance of the MechaCar in different weather conditions.  The metric being analyzed will be braking distance, measured in feet.
+
+**2. Null and alternative hypotheses**
+The null hypothesis in this study is that the mean braking distance will be statistically consistent across each of the weather conditions.  The alternative hypothesis is that the braking distance will be statistically inconsistent for at least one of the weather conditions.
+
+**3. Statistical tests to be used to test the hypothesis**
+To test the null hypothesis, a one-way ANOVA test will be used.  The ANOVA test is useful in this analysis since it can be used to test the means of the continuous numerical variable of braking distance across different weather condition groups.  The ANOVA test is preferred over a t-Test in this case for simplicity reasons. 
+
+**4. Necessary data to run the statistical test**
+The data needed for this analysis would be the braking distances of the MechaCar in different weather conditions such as sunny (dry), rainy, snowy and icy weather.  At least 50 data points for each weather condition would be needed to get an accurate representation of the performance but a greater number of data points would improve the accuracy of the analysis.
