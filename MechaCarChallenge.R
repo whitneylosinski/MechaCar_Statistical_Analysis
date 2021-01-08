@@ -21,7 +21,8 @@ sample_table <- Suspension_Coil %>% sample_n(50) #randomly sample 50 data points
 t.test(sample_table$PSI,mu=mean(Suspension_Coil$PSI)) #compare sample versus population means
 
 # Compare lot versus population means
-t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot1"), mu=mean(Suspension_Coil$PSI)) 
-t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot2"), mu=mean(Suspension_Coil$PSI)) 
-t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot3"), mu=mean(Suspension_Coil$PSI))
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot1"), mu=total_summary$Mean) 
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot2"), mu=total_summary$Mean) 
+t.test(subset(Suspension_Coil$PSI, Suspension_Coil$Manufacturing_Lot == "Lot3"), mu=total_summary$Mean)
+
 
